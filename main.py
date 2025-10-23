@@ -22,12 +22,14 @@ def main():
                     if sender == admin:
                         command = frame.info.text.decode().lower()
 
+                        response = None
+
                         if re.search("power on", command, re.IGNORECASE):
                             response = requests.get(f"{tasmota}cmnd=Power%20On", timeout = 5)
-                            status = "On"
                         elif re.search("power off", command, re.IGNORECASE):
-                            status = "Off"
                             response = requests.get(f"{tasmota}cmnd=Power%20Off", timeout = 5)
+                        elif re.search("power cycle", command, re.IGNORECASE):
+                            response = requests.get(f"{tasmota}cmnd=Backlog%20Power%20Off%3B%20Delay%20300%3B%20Power%20On", timeout = 5)
 
                         if response != None and response.status_code == 200 and frame.info.number != None:
                             tnc.write(aprs.APRSFrame.ui(
