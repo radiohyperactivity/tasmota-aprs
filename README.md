@@ -1,12 +1,12 @@
 # Control Tasmota Power Switch via APRS
 
-A proof of consept script that will connect to a KISS TNC (such as a LoRa APRS iGate, Direwolf or any other KISS compatible TNC). It will listen for messages sent to it's call sign, from the administrators call sign. If such a message contains the words "POWER ON" or "POWER OFF" (case insensitive) it will execute the respective command on the configured Tasmota device.
+A proof of consept script that will connect to a KISS TNC (such as a LoRa APRS iGate, Direwolf or any other KISS compatible TNC). It will listen for messages sent to it's callsign, from the administrators callsign. If such a message contains the words "POWER ON" or "POWER OFF" (case insensitive) it will execute the respective command on the configured Tasmota device.
 
 Tested with the Sonoff Basic unit only!
 
 ## Security warning
 
-APRS does not offer any protection against spoofing. This means anyone can technically send messages from any call sign, including the one you have set as an administrator!
+APRS does not offer any protection against spoofing. This means anyone can technically send messages from any callsign, including the one you have set as an administrator!
 
 ## Installation
 
@@ -48,7 +48,7 @@ The script gets its configuration from the following 5 environment variables
 
 ### `CALL`
 
-The call sign the script will accept messages for. Can be a proper call sign or up to 7 alphanumeric characters.
+The callsign the script will accept messages for. Can be a proper callsign or up to 7 alphanumeric characters.
 
 #### Example
 
@@ -66,7 +66,7 @@ export CALL="LAMP"
 
 ### `ADMIN`
 
-The call sign allowed to execute commands. Can be any 7 alphanumeric characters but will probably be a proper call sign including SSID.
+The callsign allowed to execute commands. Can be any 7 alphanumeric characters but will probably be a proper callsign including SSID.
 
 #### Example
 
