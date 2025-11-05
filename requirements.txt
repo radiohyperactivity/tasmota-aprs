@@ -1,2 +1,14 @@
-aprs3
-requests
+aprs3==8.0.0.post1
+attrs==25.4.0
+ax253==0.1.5.post1
+bitarray==3.7.2
+certifi==2025.10.5
+charset-normalizer==3.4.4
+idna==3.11
+importlib_metadata==8.7.0
+kiss3==8.0.0
+pyserial==3.5
+pyserial-asyncio==0.6
+requests==2.32.5
+urllib3==2.5.0
+zipp==3.23.0
