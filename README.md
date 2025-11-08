@@ -105,7 +105,7 @@ The hostname/IP and port of the TNC used to received messages and send acknowled
 
 ```shell
 $env:TNC_HOST="192.168.10.246"
-$env:TNC_PORT="8001?"
+$env:TNC_PORT="8001"
 ```
 
 ##### BASH
