@@ -112,7 +112,7 @@ $env:TNC_PORT="8001?"
 
 ```shell
 export TNC_HOST="192.168.10.246"
-export TNC_PORT="8001?"
+export TNC_PORT="8001"
 ```
 
 ### `SYSLOG_HOST`
