@@ -73,13 +73,13 @@ The callsign allowed to execute commands. Can be any 6 alphanumeric characters b
 ##### PowerShell
 
 ```shell
-$env:ADMIN="LB5JJ-2"
+$env:ADMIN="LB5JJ-4"
 ```
 
 ##### BASH
 
 ```shell
-export ADMIN="LB5JJ-2"
+export ADMIN="LB5JJ-4"
 ```
 
 ### `TASMOTA`
