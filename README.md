@@ -1,5 +1,9 @@
 # Control Tasmota Power Switch via APRS
 
+This is the companion repository the the YouTube video showing the build of the APRS remote controlled power switch.
+
+[![](video-thumb.png)](https://youtu.be/Ph4JDYbER2c)
+
 A proof of concept script that will connect to a KISS TNC (such as a LoRa APRS iGate, Direwolf or any other KISS compatible TNC). It will listen for messages sent to it's callsign, from the administrators callsign. If such a message contains the words "POWER ON", "POWER OFF" or "POWER CYCLE" (case insensitive) it will execute the respective command on the configured Tasmota device.
 
 Tested with the Sonoff Basic unit only!
