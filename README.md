@@ -1,6 +1,6 @@
 # Control Tasmota Power Switch via APRS
 
-This is the companion repository the the YouTube video showing the build of the APRS remote controlled power switch.
+This is the companion repository for the YouTube video showing the build of the APRS remote controlled power switch.
 
 [![](video-thumb.png)](https://youtu.be/Ph4JDYbER2c)
 
